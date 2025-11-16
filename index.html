@@ -11,7 +11,7 @@
     <meta property="og:image" content="assets/favicons/2.png" />
     <title>Bhavin Varsur - Software Engineer</title>
     <link rel="icon" type="image/png" href="assets/favicons/2.png" />
-    <!-- style section start -->
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -20,24 +20,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-
     <link rel="stylesheet" href="style.css" />
-    <!-- style section end -->
 
     <script src="script.js" defer></script>
   </head>
 
   <body>
-    <!-- header start -->
     <header>
       <div class="content">
         <h1>Bhavin Varsur</h1>
         <p>Software Engineer</p>
       </div>
     </header>
-    <!-- header end -->
 
-    <!-- navigation bar start -->
     <nav>
       <div class="nav-container">
         <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -52,6 +47,7 @@
           <a href="#resume">Resume</a>
           <a href="#blog">Blog</a>
           <a href="#videos">Videos</a>
+          <a href="#certifications">Certifications</a>
           <a href="#contact">Contact</a>
         </div>
         <button
@@ -65,10 +61,7 @@
       </div>
     </nav>
 
-    <!-- navigation bar end  -->
-
     <div class="container">
-      <!-- about section start -->
       <section id="about" class="section-card">
         <h2>About Me</h2>
         <p>
@@ -81,7 +74,7 @@
           through innovation and collaboration.
         </p>
       </section>
-      <!-- about section end -->
+
       <section id="work" class="section-card">
         <h2>Work Experience</h2>
         <div class="timeline">
@@ -119,9 +112,7 @@
               </ul>
             </div>
           </div>
-        </div>
-        <div class="timeline">
-          <!-- work experience item 2 -->
+
           <div class="timeline-item">
             <div class="timeline-icon">
               <i class="fas fa-briefcase"></i>
@@ -161,7 +152,6 @@
         </div>
       </section>
 
-      <!-- projects section start -->
       <section id="projects" class="section-card">
         <h2>Projects</h2>
         <p>
@@ -169,7 +159,6 @@
           development skills:
         </p>
         <div class="portfolio-grid">
-          <!-- To-Do List App -->
           <div class="portfolio-item">
             <h3>To-Do List App (.NET MAUI)</h3>
             <p>
@@ -177,7 +166,7 @@
               <strong>.NET MAUI</strong>.
             </p>
 
-            <div class="more-info" style="display: none">
+            <div class="more-info">
               <p>
                 This lightweight task manager allows users to create, complete,
                 and delete tasks with a neat user interface. Supports persistent
@@ -204,7 +193,6 @@
             </div>
           </div>
 
-          <!-- Simple Calculator App -->
           <div class="portfolio-item">
             <h3>Simple Calculator App</h3>
             <p>
@@ -212,8 +200,7 @@
               <strong>.NET MAUI</strong> that supports basic arithmetic
               operations.
             </p>
-
-            <div class="more-info" style="display: none">
+            <div class="more-info">
               <p>
                 Designed for both mobile and desktop, this calculator provides
                 real-time computation of inputs using MAUI’s responsive layout.
@@ -240,15 +227,13 @@
             </div>
           </div>
 
-          <!-- JWT Authentication API -->
           <div class="portfolio-item">
             <h3>JWT Authentication API</h3>
             <p>
               A secure REST API implementing JWT authentication in .NET for
               role-based access.
             </p>
-
-            <div class="more-info" style="display: none">
+            <div class="more-info">
               <p>
                 Implements secure user registration, login, and token-based
                 access using JSON Web Tokens. Includes role-based authorization
@@ -274,15 +259,13 @@
             </div>
           </div>
 
-          <!-- EBook Shop (.NET MVC) -->
           <div class="portfolio-item">
             <h3>EBookShop1 (.NET MVC)</h3>
             <p>
               A simple eBook shop built using ASP.NET Core MVC with category
               filtering and admin features.
             </p>
-
-            <div class="more-info" style="display: none">
+            <div class="more-info">
               <p>
                 Features product listing by category, book detail pages, and
                 secure admin area for managing content (CRUD). Built with Entity
@@ -309,9 +292,7 @@
           </div>
         </div>
       </section>
-      <!-- projects section end -->
 
-      <!-- resume section start -->
       <section id="resume" class="section-card">
         <h2>Resume</h2>
         <p>You can download my latest CV or resume below.</p>
@@ -324,9 +305,7 @@
           Download CV
         </a>
       </section>
-      <!-- resume section end -->
 
-      <!-- blog section start -->
       <section id="blog" class="section-card">
         <h2>Blog</h2>
         <p>Check out some of my latest blog posts:</p>
@@ -365,7 +344,6 @@
             >
           </div>
         </div>
-        <!-- External Blog Posts -->
         <h3 style="margin-top: 2rem">Recommended External Reads</h3>
         <ul class="external-blogs">
           <li>
@@ -386,19 +364,15 @@
           </li>
         </ul>
       </section>
-      <!-- blog section end -->
 
-      <!-- videos section start -->
       <section id="videos" class="section-card">
         <h2>Videos</h2>
         <p>Watch some of my recent walkthroughs and tech tutorials:</p>
         <div class="video-grid">
           <div class="video-item">
             <iframe
-              width="100"
-              height="315"
-              src="https://www.youtube.com/embed/qOX2TDwoZbI?si=ISg6sGSuItEkpt-L"
               title="YouTube video player"
+              src="https://www.youtube.com/embed/qOX2TDwoZbI?si=ISg6sGSuItEkpt-L"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
@@ -411,10 +385,8 @@
 
           <div class="video-item">
             <iframe
-              width="100"
-              height="315"
-              src="https://www.youtube.com/embed/K0vOjr-AFwE?si=3XInoTvbk0wrg5w1"
               title="YouTube video player"
+              src="https://www.youtube.com/embed/K0vOjr-AFwE?si=3XInoTvbk0wrg5w1"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
@@ -427,114 +399,190 @@
           </div>
         </div>
       </section>
-      <!-- videos section end -->
 
-      <!-- skills section start -->
-      <section id="skills" class="section-card">
+      <section id="skills" class="section-card reveal">
         <h2>Skills</h2>
-        <div class="skills-grid">
-          <div class="skill">
-            <h3>.NET Core</h3>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 85%"></div>
+
+        <div class="skills-matrix">
+          <div class="matrix-column">
+            <div class="skill-category-card reveal">
+              <h3>🖥️ Backend Development</h3>
+              <ul class="clean-list">
+                <li>
+                  <span class="icon">⚙️</span> <strong>C#</strong> / .NET Core
+                </li>
+                <li><span class="icon">🧩</span> ASP.NET / MVC</li>
+                <li><span class="icon">🔗</span> Web API (REST)</li>
+                <li><span class="icon">📦</span> Microservices</li>
+                <li><span class="icon">🗄️</span> Entity Framework Core (EF)</li>
+              </ul>
+            </div>
+
+            <div class="skill-category-card reveal">
+              <h3>🌐 Frontend / UI</h3>
+              <ul class="clean-list">
+                <li><span class="icon">💡</span> JavaScript / jQuery</li>
+                <li><span class="icon">🎨</span> HTML5 / CSS3</li>
+              </ul>
             </div>
           </div>
-          <div class="skill">
-            <h3>C#</h3>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 90%"></div>
+
+          <div class="matrix-column">
+            <div class="skill-category-card reveal">
+              <h3>💾 Database & Data Stores</h3>
+              <ul class="clean-list">
+                <li>
+                  <span class="icon">🛢️</span>
+                  <strong>Microsoft SQL Server</strong>
+                </li>
+                <li><span class="icon">🍃</span> MongoDB (NoSQL)</li>
+                <li><span class="icon">📊</span> SQL / T-SQL</li>
+              </ul>
             </div>
-          </div>
-          <div class="skill">
-            <h3>Javascript</h3>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 75%"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <h3>SQL</h3>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 80%"></div>
+
+            <div class="skill-category-card reveal">
+              <h3>🛠️ Tools & Methodology</h3>
+              <ul class="clean-list">
+                <li><span class="icon">🧪</span> Postman (API Testing)</li>
+                <li><span class="icon">🔧</span> Git & GitHub</li>
+                <li><span class="icon">📅</span> Agile / Scrum</li>
+                <li>
+                  <span class="icon">✔️</span> TDD (Test-Driven Development)
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- contact section start -->
-      <section id="contact" class="section-card">
+      <section id="certifications" class="section-card">
+        <h2>Certifications</h2>
+        <p>
+          Here are some of my earned certifications and professional badges:
+        </p>
+
+        <div class="certifications-grid">
+          <div class="certification-item">
+            <img
+              src="assets/certifications/github-foundations.png"
+              alt="GitHub Foundations Badge"
+            />
+            <h3>GitHub Foundations</h3>
+            <a
+              href="https://www.credly.com/badges/9d6662e3-8b70-48a0-8ad5-1c2a83848c65/public_url"
+              target="_blank"
+              class="btn"
+            >
+              View Credential
+            </a>
+          </div>
+
+          <div class="certification-item">
+            <img
+              src="assets/certifications/mongodb-logo.png"
+              alt="MongoDB SI Associate Certification Badge"
+            />
+            <h3>MongoDB SI Associate</h3>
+            <a
+              href="assets/certifications/mongodb-si-associate-certificate.pdf"
+              target="_blank"
+              class="btn"
+            >
+              View Certificate
+            </a>
+          </div>
+
+          <div class="certification-item">
+            <img
+              src="assets/certifications/snyk-certificate-logo.jpg"
+              alt="Snyk Certified Technical Pro"
+            />
+            <h3>Snyk Certified Technical Pro</h3>
+            <a
+              href="assets/certifications/snyk-certificate.pdf"
+              target="_blank"
+              class="btn"
+            >
+              View Credential
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-card contact-section">
         <h2>Contact Me</h2>
         <p>
           If you'd like to get in touch, feel free to reach out via email or
           connect on LinkedIn. I'm always interested in technology, innovation,
           and opportunities for collaboration.
         </p>
-        <div class="contact-info">
-          <div class="contact-item">
-            <strong>Email</strong><br />
-            <a href="mailto:bvarsur@gmail.com"
-              ><i class="fa fa-envelope"></i>bvarsur@gmail.com</a
-            >
-          </div>
-          <div class="contact-item">
-            <strong>LinkedIn</strong><br />
-            <a
-              href="https://www.linkedin.com/in/bhavin-varsur-254214146"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin"></i>linkedin.com/bhavinvarsur</a
-            >
-          </div>
-          <div class="contact-item">
-            <strong>GitHub</strong><br />
-            <a
-              href="https://github.com/bvarsur"
-              aria-label="Visit my GitHub profile"
-              target="_blank"
-            >
-              <i class="fab fa-github"></i> github.com/bvarsur
-            </a>
-          </div>
-        </div>
 
-        <div class="contact-info">
-          <div class="contact-item">
-            <strong>Twitter</strong><br />
-            <a href="https://twitter.com/bhavin_varsur" target="_blank">
-              <i class="fab fa-twitter"></i> twitter.com/bhavinvarsur
-            </a>
-          </div>
-          <div class="contact-item">
-            <strong>YouTube</strong><br />
-            <a
-              href="https://www.youtube.com/channel/UC_-ik8HZu_kO9Xs3ENF6ylw"
-              target="_blank"
-            >
-              <i class="fab fa-youtube"></i> youtube.com/bhavinvarsur
-            </a>
-          </div>
-          <div class="contact-item">
-            <strong>Stackoverflow</strong><br />
-            <a
-              href="https://stackoverflow.com/users/8443793/bhavin-varsur"
-              target="_blank"
-            >
-              <i class="fa fa-stack-overflow"></i>
-              Stackoverflow.com/bhavinvarsur
-            </a>
-          </div>
+        <div class="contact-grid">
+          <a href="mailto:bvarsur@gmail.com" class="contact-card">
+            <i class="fa-solid fa-envelope"></i>
+            <strong>Email</strong>
+            <span>bvarsur@gmail.com</span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/bhavin-varsur-254214146"
+            target="_blank"
+            class="contact-card"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+            <strong>LinkedIn</strong>
+            <span>linkedin.com/bhavinvarsur</span>
+          </a>
+
+          <a
+            href="https://github.com/bvarsur"
+            target="_blank"
+            class="contact-card"
+          >
+            <i class="fa-brands fa-github"></i>
+            <strong>GitHub</strong>
+            <span>github.com/bvarsur</span>
+          </a>
+
+          <a
+            href="https://twitter.com/bhavin_varsur"
+            target="_blank"
+            class="contact-card"
+          >
+            <i class="fa-brands fa-twitter"></i>
+            <strong>Twitter</strong>
+            <span>twitter.com/bhavinvarsur</span>
+          </a>
+
+          <a
+            href="https://www.youtube.com/channel/UC_-ik8HZu_kO9Xs3ENF6ylw"
+            target="_blank"
+            class="contact-card"
+          >
+            <i class="fa-brands fa-youtube"></i>
+            <strong>YouTube</strong>
+            <span>youtube.com/bhavinvarsur</span>
+          </a>
+
+          <a
+            href="https://stackoverflow.com/users/8443793/bhavin-varsur"
+            target="_blank"
+            class="contact-card"
+          >
+            <i class="fa-brands fa-stack-overflow"></i>
+            <strong>Stack Overflow</strong>
+            <span>stackoverflow.com/bhavinvarsur</span>
+          </a>
         </div>
       </section>
-      <!-- contact section end -->
     </div>
-    <!-- back to top button -->
+
     <button id="back-to-top" aria-label="Back to Top" title="Back to Top">
       <i class="fas fa-arrow-up-long"></i>
     </button>
 
-    <!-- footer start -->
     <footer>
       <p>&copy; 2025 Bhavin Varsur. All Rights Reserved.</p>
     </footer>
-    <!-- footer end -->
   </body>
 </html>
